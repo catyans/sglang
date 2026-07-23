@@ -106,7 +106,7 @@ jsonwebtoken = { version = "9.3", default-features = false, features = ["use_pem
 num-traits = "0.2"
 num-bigint = "0.4"
 base64 = "0.22"
-openai-harmony = { git = "https://github.com/openai/harmony", tag = "v0.0.4" }
+openai-harmony = { path = "/root/.cargo/git/checkouts/harmony-d181548887579b3d/72079ca" }
 openmetrics-parser = "0.4.4"
 arc-swap = "1.7.1"
 
