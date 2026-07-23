@@ -1,15 +1,5 @@
-[build]
-rustflags = []
-incremental = true
+[source.crates-io]
+replace-with = "rsproxy-sparse"
 
-[target.aarch64-apple-darwin]
-rustflags = [
-    "-C", "link-arg=-undefined",
-    "-C", "link-arg=dynamic_lookup",
-]
-
-[target.x86_64-apple-darwin]
-rustflags = [
-    "-C", "link-arg=-undefined",
-    "-C", "link-arg=dynamic_lookup",
-]
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
